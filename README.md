@@ -1,6 +1,6 @@
 # Week-4-Assignment
 
-<img src="https://raw.githubusercontent.com/MrNirva/Patika-Pazarama-Bootcamp-Week-4-Task/main/WeatherApp/ss.png" height="400" width="1000" >
+<img src="https://raw.githubusercontent.com/MrNirva/Patika-Pazarama-Bootcamp-Week-4-Task/main/WeatherApp/ss.png" height="300" width="750" >
 
 ## Summary
 This weather application is coded in accordance with the single activity principle. Androidx and 3rd party libraries are used. Weather data obtained with Retrofit is saved to the memory with Data Store and then displayed when needed. This app has Light and Dark mode and can display Temperatures in Celsius, Fahrenheit and Kelvin. 
