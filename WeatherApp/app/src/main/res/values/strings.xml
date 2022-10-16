@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Weather App</string>
+
+    <string name="enter_current_location">Enter Current Location</string>
+    <string name="search">SEARCH</string>
+    <string name="location_cannot_empty">Location cannot be empty</string>
+    <string name="location_not_found">Location not found</string>
+
+    <string name="settings">Settings</string>
+
+    <string name="app_theme">App Theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="system">System</string>
+
+    <string name="unit">Unit</string>
+    <string name="centigrade">Centigrade (°C)</string>
+    <string name="fahrenheit">Fahrenheit (°F)</string>
+    <string name="kelvin">Kelvin (°K)</string>
+    <string name="today">Today</string>
+    <string name="next_forecast">Next Forecast</string>
+
+</resources>

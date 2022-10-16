@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.arcapp.weatherapp.ui.fragment.WeatherFragment"
+        android:label="WeatherFragment" >
+        <action
+            android:id="@+id/action_weatherFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_weatherFragment_to_searchLocationFragment"
+            app:destination="@id/searchLocationFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchLocationFragment"
+        android:name="com.arcapp.weatherapp.ui.fragment.SearchLocationFragment"
+        android:label="SearchLocationFragment" >
+        <action
+            android:id="@+id/action_searchLocationFragment_to_weatherFragment"
+            app:destination="@id/weatherFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.arcapp.weatherapp.ui.fragment.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment_to_weatherFragment"
+            app:destination="@id/weatherFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.arcapp.weatherapp.ui.fragment.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_searchLocationFragment"
+            app:destination="@id/searchLocationFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_weatherFragment"
+            app:destination="@id/weatherFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

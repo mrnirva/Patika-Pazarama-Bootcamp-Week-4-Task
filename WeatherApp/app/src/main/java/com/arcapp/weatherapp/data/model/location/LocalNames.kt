@@ -1,0 +1,245 @@
+package com.arcapp.weatherapp.data.model.location
+
+
+import com.google.gson.annotations.SerializedName
+
+data class LocalNames(
+    @SerializedName("ab")
+    val ab: String?,
+    @SerializedName("af")
+    val af: String?,
+    @SerializedName("ak")
+    val ak: String?,
+    @SerializedName("am")
+    val am: String?,
+    @SerializedName("an")
+    val an: String?,
+    @SerializedName("ar")
+    val ar: String?,
+    @SerializedName("as")
+    val asX: String?,
+    @SerializedName("av")
+    val av: String?,
+    @SerializedName("ba")
+    val ba: String?,
+    @SerializedName("be")
+    val be: String?,
+    @SerializedName("bg")
+    val bg: String?,
+    @SerializedName("bh")
+    val bh: String?,
+    @SerializedName("bm")
+    val bm: String?,
+    @SerializedName("bn")
+    val bn: String?,
+    @SerializedName("br")
+    val br: String?,
+    @SerializedName("bs")
+    val bs: String?,
+    @SerializedName("ca")
+    val ca: String?,
+    @SerializedName("ce")
+    val ce: String?,
+    @SerializedName("cs")
+    val cs: String?,
+    @SerializedName("cu")
+    val cu: String?,
+    @SerializedName("cv")
+    val cv: String?,
+    @SerializedName("cy")
+    val cy: String?,
+    @SerializedName("da")
+    val da: String?,
+    @SerializedName("de")
+    val de: String?,
+    @SerializedName("el")
+    val el: String?,
+    @SerializedName("en")
+    val en: String?,
+    @SerializedName("eo")
+    val eo: String?,
+    @SerializedName("es")
+    val es: String?,
+    @SerializedName("eu")
+    val eu: String?,
+    @SerializedName("fa")
+    val fa: String?,
+    @SerializedName("fi")
+    val fi: String?,
+    @SerializedName("fj")
+    val fj: String?,
+    @SerializedName("fo")
+    val fo: String?,
+    @SerializedName("fr")
+    val fr: String?,
+    @SerializedName("fy")
+    val fy: String?,
+    @SerializedName("ga")
+    val ga: String?,
+    @SerializedName("gd")
+    val gd: String?,
+    @SerializedName("gl")
+    val gl: String?,
+    @SerializedName("ha")
+    val ha: String?,
+    @SerializedName("he")
+    val he: String?,
+    @SerializedName("hi")
+    val hi: String?,
+    @SerializedName("hr")
+    val hr: String?,
+    @SerializedName("ht")
+    val ht: String?,
+    @SerializedName("hu")
+    val hu: String?,
+    @SerializedName("hy")
+    val hy: String?,
+    @SerializedName("ia")
+    val ia: String?,
+    @SerializedName("id")
+    val id: String?,
+    @SerializedName("ie")
+    val ie: String?,
+    @SerializedName("io")
+    val io: String?,
+    @SerializedName("is")
+    val isX: String?,
+    @SerializedName("it")
+    val `it`: String?,
+    @SerializedName("ja")
+    val ja: String?,
+    @SerializedName("jv")
+    val jv: String?,
+    @SerializedName("ka")
+    val ka: String?,
+    @SerializedName("kk")
+    val kk: String?,
+    @SerializedName("kn")
+    val kn: String?,
+    @SerializedName("ko")
+    val ko: String?,
+    @SerializedName("ku")
+    val ku: String?,
+    @SerializedName("kw")
+    val kw: String?,
+    @SerializedName("ky")
+    val ky: String?,
+    @SerializedName("la")
+    val la: String?,
+    @SerializedName("lb")
+    val lb: String?,
+    @SerializedName("li")
+    val li: String?,
+    @SerializedName("ln")
+    val ln: String?,
+    @SerializedName("lo")
+    val lo: String?,
+    @SerializedName("lt")
+    val lt: String?,
+    @SerializedName("lv")
+    val lv: String?,
+    @SerializedName("mg")
+    val mg: String?,
+    @SerializedName("mk")
+    val mk: String?,
+    @SerializedName("ml")
+    val ml: String?,
+    @SerializedName("mn")
+    val mn: String?,
+    @SerializedName("mr")
+    val mr: String?,
+    @SerializedName("ms")
+    val ms: String?,
+    @SerializedName("mt")
+    val mt: String?,
+    @SerializedName("my")
+    val my: String?,
+    @SerializedName("na")
+    val na: String?,
+    @SerializedName("nb")
+    val nb: String?,
+    @SerializedName("ne")
+    val ne: String?,
+    @SerializedName("nl")
+    val nl: String?,
+    @SerializedName("nn")
+    val nn: String?,
+    @SerializedName("ny")
+    val ny: String?,
+    @SerializedName("oc")
+    val oc: String?,
+    @SerializedName("os")
+    val os: String?,
+    @SerializedName("pa")
+    val pa: String?,
+    @SerializedName("pl")
+    val pl: String?,
+    @SerializedName("ps")
+    val ps: String?,
+    @SerializedName("pt")
+    val pt: String?,
+    @SerializedName("qu")
+    val qu: String?,
+    @SerializedName("rm")
+    val rm: String?,
+    @SerializedName("ro")
+    val ro: String?,
+    @SerializedName("ru")
+    val ru: String?,
+    @SerializedName("rw")
+    val rw: String?,
+    @SerializedName("sc")
+    val sc: String?,
+    @SerializedName("sd")
+    val sd: String?,
+    @SerializedName("se")
+    val se: String?,
+    @SerializedName("sk")
+    val sk: String?,
+    @SerializedName("sl")
+    val sl: String?,
+    @SerializedName("so")
+    val so: String?,
+    @SerializedName("sq")
+    val sq: String?,
+    @SerializedName("sr")
+    val sr: String?,
+    @SerializedName("sv")
+    val sv: String?,
+    @SerializedName("sw")
+    val sw: String?,
+    @SerializedName("ta")
+    val ta: String?,
+    @SerializedName("te")
+    val te: String?,
+    @SerializedName("tg")
+    val tg: String?,
+    @SerializedName("th")
+    val th: String?,
+    @SerializedName("tk")
+    val tk: String?,
+    @SerializedName("tl")
+    val tl: String?,
+    @SerializedName("tr")
+    val tr: String?,
+    @SerializedName("tt")
+    val tt: String?,
+    @SerializedName("tw")
+    val tw: String?,
+    @SerializedName("ug")
+    val ug: String?,
+    @SerializedName("uk")
+    val uk: String?,
+    @SerializedName("ur")
+    val ur: String?,
+    @SerializedName("uz")
+    val uz: String?,
+    @SerializedName("vi")
+    val vi: String?,
+    @SerializedName("yi")
+    val yi: String?,
+    @SerializedName("yo")
+    val yo: String?,
+    @SerializedName("zh")
+    val zh: String?
+)
